@@ -1,0 +1,27 @@
+# 비밀 값 (API 토큰 등)
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# 개인 지출 데이터 (공개 저장소에 올리지 않음)
+data/
+*.db
+*.sqlite3
+exports/
+*.xlsx
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
